@@ -1,0 +1,78 @@
+.home1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    
+}
+.navicon{
+    display: none;
+}
+.navires{
+    display: none;
+}
+
+@media (min-width:300px) and (max-width:800px) {
+    .home1{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.navicon{
+    display: flex;
+    font-size:20px;
+    color: red ;
+    border: 2px solid silver;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 5px; 
+    margin-left: 20px;
+    padding-left: 20px; 
+}
+.navicon:hover{
+    background-color: aliceblue;
+    color: rgb(4, 13, 28);
+    cursor: pointer;
+    transition: 1s;
+}
+.navires{
+    display: flex;
+    justify-content: space-between;
+}
+.navidown{
+    margin-right: 50px;
+}
+.showna{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    transition: 2s ease-in-out;
+    position: absolute;
+    top: 20px;
+    width: 100px;
+
+}
+.showna nav{
+    background-color: transparent;
+    margin-left: 80px;
+    
+
+}
+.showna nav ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    width: 1000px;
+    position: absolute;
+    top: 70px;
+    
+   
+   
+
+    
+
+}
+    
+}

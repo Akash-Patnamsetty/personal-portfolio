@@ -1,0 +1,23 @@
+.mainv11{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 50px;
+}
+.mainv11 .card p{
+    font-size: 13px;
+} 
+.mainv11 .card{
+    background-color: transparent;
+}
+span{
+background-color: transparent;
+}
+@media (min-width:350px) and (max-width:770px){
+    .mainv11{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    gap: 50px;
+}
+}

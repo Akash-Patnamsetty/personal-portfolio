@@ -1,0 +1,56 @@
+.mainimg{
+    border-radius: 5px;
+    position: sticky;
+    margin-right: 70px;
+    background-color: transparent;
+    top: 1px;
+   margin-left: 50px;
+
+    
+
+}
+img{
+    width: 300px;
+    height: 500px;
+    border: 2px dashed red;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    animation-name: fade-in;
+    animation-duration: 4s;
+    animation-delay: 0.1s;
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        margin-top: 60px;
+    }
+    to{
+        opacity: 100%;
+        margin-top: 0px;
+
+    }
+    
+}
+@media (min-width:300px) and (max-width:750px) {
+    img{
+    width: 300px;
+    height: 500px;
+    border: 2px dashed red;
+    position: relative;
+    top: 80px;
+    margin-right: 100px;
+    position: relative;
+
+}
+.mainimg{
+    border-radius: 5px;
+    position: sticky;
+    margin-right: 100px;
+    background-color: transparent;
+    top: 1px;
+
+    
+
+}
+}

@@ -1,0 +1,254 @@
+
+
+.persolardetails h1 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.persolardetails h1::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 400px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h1::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 500px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+.persolardetails h2 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+.persolardetails h2::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 300px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h2::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 500px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+.persolardetails h3 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.persolardetails h3:after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 350px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h3::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 500px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}.persolardetails h4 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+.persolardetails h4::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 450px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h4::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 500px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+.persolardetails h5 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+.persolardetails h5::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 400px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h5::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 500px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+.G1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media (min-width:350px) and (max-width:800px){
+
+.persolardetails h1::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 350px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h1::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 450px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+.persolardetails h2::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 250px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h2::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 450px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}.persolardetails h3::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 300px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h3::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 450px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}.persolardetails h4::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 400px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h4::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 450px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}.persolardetails h5::after{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 350px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    background-color:red;
+    border-radius: 10px;
+}
+.persolardetails h5::before{
+    content: "";
+    border: 2px solid red;
+    height: 5px;
+    width: 450px;
+    top:100%;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+}
+}

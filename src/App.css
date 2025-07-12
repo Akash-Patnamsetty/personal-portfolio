@@ -1,0 +1,65 @@
+.main{
+  display: flex;
+  align-items: first baseline;
+
+}
+
+.main3{
+  margin-left: 250px;
+  animation-name: main ;
+  animation-delay: 0.1s;
+  animation-duration: 2s;
+}
+
+.mainline{
+  display: none;
+}
+ @keyframes main {
+    from{
+        opacity: 0;
+        margin-top: 40px;
+    }
+    to{
+        opacity: 100%;
+        margin-top: 0px;
+
+    }
+    
+}
+
+
+
+@media (min-width:300px) and (max-width:750px){
+
+.main2{
+  display: none;
+}
+.main3{
+  margin-left: 40px;
+  display: none;
+}
+.mainline{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 110px;
+
+}
+.services{
+  margin-left: 60px;
+}
+.project{
+  margin-left: 60px;
+
+}
+.contact{
+  margin-left: 30px;
+}
+
+}
+@media (min-width:751px) and (max-width:800px){
+
+.main3{
+  margin-left: 270px;
+}
+
+}

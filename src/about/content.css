@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.head{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 600;
+}
+.detail{
+    display: block;
+}
+.maint3{
+    margin-right: 50px;
+
+}
+
+.cvbtn{
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+    box-shadow: 2px 2px 100px  red;
+    position: relative;
+    bottom: 30px;
+
+
+    
+}
+.cvbtn:hover{
+  background-color: rgb(16, 154, 186);
+   color: red;
+   font-weight: 700;
+    border: 2px solid rgb(16, 154, 186);
+    box-shadow: 2px 2px 100px 1px rgb(16, 154, 186);
+    transition: 0.5s ;
+
+
+}
+.cvbtnactive{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    font-weight: 700;
+    border: 2px solid green;
+    box-shadow: 2px 2px 100px 5px green;
+    margin-left: 50px;
+    position: relative;
+    bottom: 30px;
+
+}
+

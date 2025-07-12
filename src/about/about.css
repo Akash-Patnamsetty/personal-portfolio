@@ -1,0 +1,50 @@
+
+h1{
+    color: blueviolet;
+}
+.la{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+
+}
+.la::after{
+    content: "";
+    position: absolute;
+    border: 2px solid red;
+    height: 2px;
+    top: 90%;
+    width: 70%;
+    left: 0;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.la::before{
+    content: "";
+    position: absolute;
+    border: 2px solid red;
+    height: 2px;
+    top: 100%;
+    width: 40%;
+    margin-top: 2px;
+    left: 0;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.mainv1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: first baseline;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+@media (min-width:350px) and (max-width:800px) {
+    .mainv1{
+        display: grid;
+    grid-template-columns: 1fr;
+
+    }
+}

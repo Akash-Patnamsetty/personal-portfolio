@@ -1,0 +1,79 @@
+h1{
+    color: silver;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+   
+}
+span{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cvbtn{
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-weight: 700;
+    box-shadow: 2px 2px 100px  red;
+    
+
+    
+}
+.cvbtn:hover{
+  background-color: rgb(16, 154, 186);
+   color: red;
+   font-weight: 700;
+    border: 2px solid rgb(16, 154, 186);
+    box-shadow: 2px 2px 100px 1px rgb(16, 154, 186);
+    transition: 0.5s ;
+
+
+}
+.cvbtnactive{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    font-weight: 700;
+    border: 2px solid green;
+    box-shadow: 2px 2px 100px 5px green;
+      margin-top: 70px;
+    margin-left: 50px;
+
+}
+.t1 h1 h2 span{
+    animation: fadeh2 ease-in-out 0.5s;
+}
+@keyframes fadeh2 {
+    from{
+        opacity: 0;
+        margin-top: 40px;
+    }
+    to{
+        opacity: 100%;
+        margin-top: 0px;
+
+    }
+    
+}
+
+@media (min-width:300px) and (max-width:750px) {
+    .tl{
+        text-align: center;
+        
+    }
+   
+}
